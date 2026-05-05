@@ -52,7 +52,8 @@ class Flip7:
     def __str__(self):
         return f"Hand: {self.hand}\nBust Probability on Next Draw: {self.bust_prob:.2f}"
 
-Flip7_game = Flip7()
-while True:
-    print(Flip7_game)
-    Flip7_game.input_card()
+if __name__ == "__main__":
+    Flip7_game = Flip7()
+    while True:
+        print(Flip7_game)
+        Flip7_game.input_card()
