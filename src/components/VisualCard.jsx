@@ -2,11 +2,11 @@ function VisualCard({ card, isSelected, onClick, disabled }) {
   // Map card values to display names
   const getDisplayValue = (card) => {
     const mapping = {
-      'f3': 'F3',
-      '2c': '2C', 
+      'f3': 'Flip 3',
+      '2c': '2nd Ch', 
       '+x': '+X',
       'x2': '×2',
-      'fr': 'FR',
+      'fr': 'Frz',
       '10': '10',
       'J': 'J',
       'Q': 'Q',

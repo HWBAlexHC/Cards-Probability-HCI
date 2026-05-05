@@ -72,7 +72,7 @@ function VisualInterface({ gameType, hand, bustProb, loading, onDrawCard, onRese
           <span className="prob-percentage">{(bustProb * 100).toFixed(1)}% Bust</span>
           <span>Risky</span>
         </div>
-        {bustProb > 0.7 && hand.length > 0 && (
+        {bustProb > 0.5 && hand.length > 0 && (
           <div className="warning-message">⚠️ High risk of busting!</div>
         )}
       </div>
